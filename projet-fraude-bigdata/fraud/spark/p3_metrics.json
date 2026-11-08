@@ -1,0 +1,188 @@
+{
+  "results": [
+    {
+      "model": "LogisticRegression",
+      "AUC_ROC": 0.9999,
+      "AUC_PR": 0.9965,
+      "recall": 0.9976,
+      "precision": 0.8024,
+      "f1": 0.8894,
+      "confusion_matrix": {
+        "TN": 57919,
+        "FP": 416,
+        "FN": 4,
+        "TP": 1689
+      }
+    },
+    {
+      "model": "RandomForest",
+      "AUC_ROC": 1.0,
+      "AUC_PR": 1.0,
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": {
+        "TN": 58335,
+        "FP": 0,
+        "FN": 0,
+        "TP": 1693
+      }
+    }
+  ],
+  "rf_feature_importance": [
+    [
+      "log_amount",
+      0.3888
+    ],
+    [
+      "amount_ratio_mean",
+      0.1134
+    ],
+    [
+      "type_TRANSFER",
+      0.0927
+    ],
+    [
+      "oldbalanceDest",
+      0.0835
+    ],
+    [
+      "dest_nb_senders",
+      0.0749
+    ],
+    [
+      "error_balance_dest",
+      0.0734
+    ],
+    [
+      "oldbalanceOrg",
+      0.0345
+    ],
+    [
+      "type_CASH_OUT",
+      0.034
+    ],
+    [
+      "type_PAYMENT",
+      0.0338
+    ],
+    [
+      "amount_zscore",
+      0.0307
+    ],
+    [
+      "dest_is_merchant",
+      0.0104
+    ],
+    [
+      "balance_drain_ratio",
+      0.0099
+    ],
+    [
+      "tx_same_hour",
+      0.0064
+    ],
+    [
+      "is_night",
+      0.0059
+    ],
+    [
+      "hour",
+      0.0034
+    ],
+    [
+      "type_DEBIT",
+      0.0022
+    ],
+    [
+      "type_CASH_IN",
+      0.0014
+    ],
+    [
+      "error_balance_orig",
+      0.0008
+    ],
+    [
+      "orig_emptied",
+      0.0001
+    ]
+  ],
+  "lr_coefficients": [
+    [
+      "type_PAYMENT",
+      -1.0473
+    ],
+    [
+      "log_amount",
+      0.8909
+    ],
+    [
+      "type_DEBIT",
+      -0.698
+    ],
+    [
+      "type_TRANSFER",
+      0.6676
+    ],
+    [
+      "type_CASH_IN",
+      -0.4604
+    ],
+    [
+      "dest_is_merchant",
+      0.4582
+    ],
+    [
+      "type_CASH_OUT",
+      0.2863
+    ],
+    [
+      "oldbalanceDest",
+      0.2766
+    ],
+    [
+      "dest_nb_senders",
+      0.2726
+    ],
+    [
+      "oldbalanceOrg",
+      0.2545
+    ],
+    [
+      "amount_zscore",
+      0.2535
+    ],
+    [
+      "is_night",
+      0.2208
+    ],
+    [
+      "tx_same_hour",
+      0.1771
+    ],
+    [
+      "orig_emptied",
+      0.1584
+    ],
+    [
+      "amount_ratio_mean",
+      0.133
+    ],
+    [
+      "hour",
+      -0.108
+    ],
+    [
+      "error_balance_orig",
+      0.072
+    ],
+    [
+      "error_balance_dest",
+      0.0381
+    ],
+    [
+      "balance_drain_ratio",
+      0.0001
+    ]
+  ]
+}

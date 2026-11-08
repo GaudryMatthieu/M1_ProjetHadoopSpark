@@ -1,0 +1,158 @@
+PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata> cd .\fraud\
+PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> .\venv\Scripts\activate
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> 
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packages org.mongodb.spark:mongo-spark-connector_2.12:10.2.0 --py-files /opt/spark/work-dir/common.py /opt/spark/work-dir/p2_hdfs_to_mongo_graph.py                                                             
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml                                   
+Ivy Default Cache set to: /opt/spark/.ivy2/cache                                           
+The jars for the packages stored in: /opt/spark/.ivy2/jars
+org.mongodb.spark#mongo-spark-connector_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-f53d09ab-27b5-4fe1-b857-15bdd3c33645;1.0
+        confs: [default]
+        found org.mongodb.spark#mongo-spark-connector_2.12;10.2.0 in central
+        found org.mongodb#mongodb-driver-sync;4.8.2 in central
+        [4.8.2] org.mongodb#mongodb-driver-sync;[4.8.1,4.8.99)
+        found org.mongodb#bson;4.8.2 in central
+        found org.mongodb#mongodb-driver-core;4.8.2 in central
+        found org.mongodb#bson-record-codec;4.8.2 in central
+:: resolution report :: resolve 2039ms :: artifacts dl 8ms
+        :: modules in use:
+        org.mongodb#bson;4.8.2 from central in [default]
+        org.mongodb#bson-record-codec;4.8.2 from central in [default]
+        org.mongodb#mongodb-driver-core;4.8.2 from central in [default]
+        org.mongodb#mongodb-driver-sync;4.8.2 from central in [default]
+        org.mongodb.spark#mongo-spark-connector_2.12;10.2.0 from central in [default]
+        ---------------------------------------------------------------------
+        |                  |            modules            ||   artifacts   |
+        |       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+        ---------------------------------------------------------------------
+        |      default     |   5   |   1   |   0   |   0   ||   5   |   0   |
+        ---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-f53d09ab-27b5-4fe1-b857-15bdd3c33645
+        confs: [default]
+        0 artifacts copied, 5 already retrieved (0kB/8ms)
+26/11/07 13:50:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/07 13:50:42 INFO SparkContext: Running Spark version 3.5.0
+26/11/07 13:50:42 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/11/07 13:50:42 INFO SparkContext: Java version 11.0.20.1
+26/11/07 13:50:42 INFO ResourceUtils: ==============================================================
+26/11/07 13:50:42 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/11/07 13:50:42 INFO ResourceUtils: ==============================================================
+26/11/07 13:50:42 INFO SparkContext: Submitted application: P2-HDFS-to-Mongo-Graph
+26/11/07 13:50:42 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/11/07 13:50:42 INFO ResourceProfile: Limiting resource is cpu
+26/11/07 13:50:42 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/11/07 13:50:43 INFO SecurityManager: Changing view acls to: spark
+26/11/07 13:50:43 INFO SecurityManager: Changing modify acls to: spark
+26/11/07 13:50:43 INFO SecurityManager: Changing view acls groups to: 
+26/11/07 13:50:43 INFO SecurityManager: Changing modify acls groups to: 
+26/11/07 13:50:43 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+26/11/07 13:50:43 INFO Utils: Successfully started service 'sparkDriver' on port 33503.
+26/11/07 13:50:43 INFO SparkEnv: Registering MapOutputTracker
+26/11/07 13:50:43 INFO SparkEnv: Registering BlockManagerMaster
+26/11/07 13:50:43 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/11/07 13:50:43 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/11/07 13:50:43 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/11/07 13:50:43 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-a65948fb-0b57-4482-82ad-058769480594
+26/11/07 13:50:43 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/11/07 13:50:43 INFO SparkEnv: Registering OutputCommitCoordinator
+26/11/07 13:50:43 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/11/07 13:50:43 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+26/11/07 13:50:43 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+26/11/07 13:50:43 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar at spark://b11f4956d03f:33503/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-4.8.2.jar at spark://b11f4956d03f:33503/jars/org.mongodb_mongodb-driver-sync-4.8.2.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_bson-4.8.2.jar at spark://b11f4956d03f:33503/jars/org.mongodb_bson-4.8.2.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-4.8.2.jar at spark://b11f4956d03f:33503/jars/org.mongodb_mongodb-driver-core-4.8.2.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-4.8.2.jar at spark://b11f4956d03f:33503/jars/org.mongodb_bson-record-codec-4.8.2.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO SparkContext: Added file file:///opt/spark/work-dir/common.py at spark://b11f4956d03f:33503/files/common.py with timestamp 1794059442833
+26/11/07 13:50:43 INFO Utils: Copying /opt/spark/work-dir/common.py to /tmp/spark-cf3a2259-b709-4858-821d-5ff1e12f0c49/userFiles-92089471-827c-4840-9e82-d9de0049b637/common.py
+26/11/07 13:50:43 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar at spark://b11f4956d03f:33503/files/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar to /tmp/spark-cf3a2259-b709-4858-821d-5ff1e12f0c49/userFiles-92089471-827c-4840-9e82-d9de0049b637/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar
+26/11/07 13:50:43 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-4.8.2.jar at spark://b11f4956d03f:33503/files/org.mongodb_mongodb-driver-sync-4.8.2.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-4.8.2.jar to /tmp/spark-cf3a2259-b709-4858-821d-5ff1e12f0c49/userFiles-92089471-827c-4840-9e82-d9de0049b637/org.mongodb_mongodb-driver-sync-4.8.2.jar
+26/11/07 13:50:43 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_bson-4.8.2.jar at spark://b11f4956d03f:33503/files/org.mongodb_bson-4.8.2.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_bson-4.8.2.jar to /tmp/spark-cf3a2259-b709-4858-821d-5ff1e12f0c49/userFiles-92089471-827c-4840-9e82-d9de0049b637/org.mongodb_bson-4.8.2.jar
+26/11/07 13:50:43 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-4.8.2.jar at spark://b11f4956d03f:33503/files/org.mongodb_mongodb-driver-core-4.8.2.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-4.8.2.jar to /tmp/spark-cf3a2259-b709-4858-821d-5ff1e12f0c49/userFiles-92089471-827c-4840-9e82-d9de0049b637/org.mongodb_mongodb-driver-core-4.8.2.jar
+26/11/07 13:50:43 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-4.8.2.jar at spark://b11f4956d03f:33503/files/org.mongodb_bson-record-codec-4.8.2.jar with timestamp 1794059442833
+26/11/07 13:50:43 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-4.8.2.jar to /tmp/spark-cf3a2259-b709-4858-821d-5ff1e12f0c49/userFiles-92089471-827c-4840-9e82-d9de0049b637/org.mongodb_bson-record-codec-4.8.2.jar
+26/11/07 13:50:44 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+26/11/07 13:50:44 INFO TransportClientFactory: Successfully created connection to spark-master/172.19.0.5:7077 after 35 ms (0 ms spent in bootstraps)
+26/11/07 13:50:44 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20261107135044-0003
+26/11/07 13:50:44 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45799.
+26/11/07 13:50:44 INFO NettyBlockTransferService: Server created on b11f4956d03f:45799
+26/11/07 13:50:44 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/11/07 13:50:44 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, b11f4956d03f, 45799, None)
+26/11/07 13:50:44 INFO BlockManagerMasterEndpoint: Registering block manager b11f4956d03f:45799 with 434.4 MiB RAM, BlockManagerId(driver, b11f4956d03f, 45799, None)
+26/11/07 13:50:44 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, b11f4956d03f, 45799, None)
+26/11/07 13:50:44 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, b11f4956d03f, 45799, None)
+26/11/07 13:50:44 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+26/11/07 13:51:02 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:51:17 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:51:32 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:51:47 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:52:02 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:52:17 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:52:32 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:52:47 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:53:02 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:53:17 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:53:32 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:53:47 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:54:02 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:54:17 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:54:32 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:54:47 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:55:02 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+26/11/07 13:55:17 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+^CERROR:root:Exception while sending command.
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=3>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+ERROR:root:Exception while sending command.
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 381, in signal_handler
+    self.cancelAllJobs()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 2446, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o16.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+Traceback (most recent call last):
+  File "/opt/spark/work-dir/p2_hdfs_to_mongo_graph.py", line 30, in <module>
+    tx = read_lake(spark).filter(F.col("type").isin("TRANSFER", "CASH_OUT")).cache()
+  File "/opt/spark/work-dir/common.py", line 56, in read_lake
+    dfs = [spark.read.parquet(p) for p in (LAKE_PATH, LAKE_HIST_PATH)
+  File "/opt/spark/work-dir/common.py", line 56, in <listcomp>
+    dfs = [spark.read.parquet(p) for p in (LAKE_PATH, LAKE_HIST_PATH)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 544, in parquet
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 179, in deco
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 334, in get_return_value
+py4j.protocol.Py4JError: An error occurred while calling o32.parquet

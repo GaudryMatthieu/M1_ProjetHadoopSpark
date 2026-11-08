@@ -1,0 +1,36 @@
+1055500 transactions envoyées
+1056000 transactions envoyées
+1056500 transactions envoyées
+Total envoyé : 1056746
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud\producer> history
+
+  Id CommandLine                                                                                                                                   
+  -- -----------                                                                                                                                   
+   1 try { . "c:\Users\matth\AppData\Local\Programs\Microsoft VS Code\e646868227\resources\app\out\vs\workbench\contrib\terminal\common\scripts\...
+   2 ls                                                                                                                                            
+   3 cd .\fraud\                                                                                                                                   
+   4 ls                                                                                                                                            
+   5 docker compose up -d --build                                                                                                                  
+   6 docker compose up -d --build                                                                                                                  
+   7 docker compose down                                                                                                                           
+   8 docker compose up -d --build                                                                                                                  
+   9 docker compose up -d --build                                                                                                                  
+  10 pip install -r producer/requirements.txt                                                                                                      
+  11 py -m venv venv                                                                                                                               
+  12 .\venv\Scripts\activate                                                                                                                       
+  13 pip install -r producer/requirements.txt                                                                                                      
+  14 docker exec -it kafka kafka-topics --create --topic transactions --partitions 3 \...                                                          
+  15 docker exec -it kafka kafka-topics --create --topic transactions --partitions 3 --replication-factor 1 --bootstrap-server localhost:9092      
+  16 cd producer && python generate_transactions.py --mode csv --n 300000 && cd ..                                                                 
+  17 cd .\producer\                                                                                                                                
+  18 python generate_transactions.py --mode csv --n 300000                                                                                         
+  19 cd ..                                                                                                                                         
+  20 docker exec -it namenode hdfs dfs -mkdir -p /raw                                                                                              
+  21 docker cp data/transactions.csv namenode:/tmp/transactions.csv                                                                                
+  22 docker exec -it namenode hdfs dfs -put -f /tmp/transactions.csv /raw/                                                                         
+  23 docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --py-files /opt/spark/work-dir/common.py /opt/s...
+  24 cd .\producer\                                                                                                                                
+  25 python generate_transactions.py --mode kafka --rate 50 --live-time                                                                            
+  26 pip uninstall kafka-python kafka -y                                                                                                           
+  27 pip install kafka-python-ng                                                                                                                   
+  28 python generate_transactions.py --mode kafka --rate 50 --live-time                                                                            

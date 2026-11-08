@@ -1,0 +1,915 @@
+|2026-11-07 14:52:00|2026-11-07 14:53:00|CASH_OUT|250            |152347.03    |609.39       |15        |2026-11-07 14:52:00|CASH_OUT|
+|2026-11-07 14:52:00|2026-11-07 14:53:00|DEBIT   |242            |18709.43     |77.31        |0         |2026-11-07 14:52:00|DEBIT   |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+
+26/11/07 13:52:41 WARN CaseInsensitiveStringMap: Converting duplicated key operationtype into CaseInsensitiveStringMap.
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|minute_debut       |minute_fin         |type    |nb_transactions|montant_total|montant_moyen|nb_fraudes|_id                         |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|2026-11-07 14:52:00|2026-11-07 14:53:00|PAYMENT |1154           |85219.56     |73.85        |0         |2026-11-07 14:52:00|PAYMENT |
+|2026-11-07 14:52:00|2026-11-07 14:53:00|TRANSFER|453            |492814.26    |1087.89      |81        |2026-11-07 14:52:00|TRANSFER|
+|2026-11-07 14:52:00|2026-11-07 14:53:00|CASH_IN |375            |28696.28     |76.52        |0         |2026-11-07 14:52:00|CASH_IN |
+|2026-11-07 14:52:00|2026-11-07 14:53:00|CASH_OUT|375            |190966.85    |509.24       |18        |2026-11-07 14:52:00|CASH_OUT|
+|2026-11-07 14:52:00|2026-11-07 14:53:00|DEBIT   |380            |29714.64     |78.2         |0         |2026-11-07 14:52:00|DEBIT   |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+
+26/11/07 13:53:02 WARN CaseInsensitiveStringMap: Converting duplicated key operationtype into CaseInsensitiveStringMap.
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|minute_debut       |minute_fin         |type    |nb_transactions|montant_total|montant_moyen|nb_fraudes|_id                         |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|2026-11-07 14:53:00|2026-11-07 14:54:00|CASH_IN |102            |7498.96      |73.52        |0         |2026-11-07 14:53:00|CASH_IN |
+|2026-11-07 14:53:00|2026-11-07 14:54:00|DEBIT   |132            |9749.64      |73.86        |0         |2026-11-07 14:53:00|DEBIT   |
+|2026-11-07 14:53:00|2026-11-07 14:54:00|TRANSFER|159            |128564.13    |808.58       |28        |2026-11-07 14:53:00|TRANSFER|
+|2026-11-07 14:53:00|2026-11-07 14:54:00|PAYMENT |382            |28472.54     |74.54        |0         |2026-11-07 14:53:00|PAYMENT |
+|2026-11-07 14:53:00|2026-11-07 14:54:00|CASH_OUT|133            |113278.36    |851.72       |10        |2026-11-07 14:53:00|CASH_OUT|
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+
+26/11/07 13:53:22 WARN CaseInsensitiveStringMap: Converting duplicated key operationtype into CaseInsensitiveStringMap.
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|minute_debut       |minute_fin         |type    |nb_transactions|montant_total|montant_moyen|nb_fraudes|_id                         |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|2026-11-07 14:53:00|2026-11-07 14:54:00|PAYMENT |731            |54580.32     |74.67        |0         |2026-11-07 14:53:00|PAYMENT |
+|2026-11-07 14:53:00|2026-11-07 14:54:00|DEBIT   |263            |19700.66     |74.91        |0         |2026-11-07 14:53:00|DEBIT   |
+|2026-11-07 14:53:00|2026-11-07 14:54:00|TRANSFER|300            |235556.43    |785.19       |46        |2026-11-07 14:53:00|TRANSFER|
+|2026-11-07 14:53:00|2026-11-07 14:54:00|CASH_IN |230            |16789.29     |73.0         |0         |2026-11-07 14:53:00|CASH_IN |
+|2026-11-07 14:53:00|2026-11-07 14:54:00|CASH_OUT|281            |211192.88    |751.58       |19        |2026-11-07 14:53:00|CASH_OUT|
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+
+26/11/07 13:53:41 WARN CaseInsensitiveStringMap: Converting duplicated key operationtype into CaseInsensitiveStringMap.
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|minute_debut       |minute_fin         |type    |nb_transactions|montant_total|montant_moyen|nb_fraudes|_id                         |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|2026-11-07 14:53:00|2026-11-07 14:54:00|CASH_IN |360            |26198.39     |72.77        |0         |2026-11-07 14:53:00|CASH_IN |
+|2026-11-07 14:53:00|2026-11-07 14:54:00|DEBIT   |375            |28414.13     |75.77        |0         |2026-11-07 14:53:00|DEBIT   |
+|2026-11-07 14:53:00|2026-11-07 14:54:00|TRANSFER|460            |296367.76    |644.28       |56        |2026-11-07 14:53:00|TRANSFER|
+|2026-11-07 14:53:00|2026-11-07 14:54:00|PAYMENT |1117           |84683.2      |75.81        |0         |2026-11-07 14:53:00|PAYMENT |
+|2026-11-07 14:53:00|2026-11-07 14:54:00|CASH_OUT|399            |263587.19    |660.62       |26        |2026-11-07 14:53:00|CASH_OUT|
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+
+26/11/07 13:54:02 WARN CaseInsensitiveStringMap: Converting duplicated key operationtype into CaseInsensitiveStringMap.
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|minute_debut       |minute_fin         |type    |nb_transactions|montant_total|montant_moyen|nb_fraudes|_id                         |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|2026-11-07 14:54:00|2026-11-07 14:55:00|CASH_IN |117            |8470.77      |72.4         |0         |2026-11-07 14:54:00|CASH_IN |
+|2026-11-07 14:54:00|2026-11-07 14:55:00|DEBIT   |129            |11325.1      |87.79        |0         |2026-11-07 14:54:00|DEBIT   |
+|2026-11-07 14:54:00|2026-11-07 14:55:00|PAYMENT |376            |27989.64     |74.44        |0         |2026-11-07 14:54:00|PAYMENT |
+|2026-11-07 14:54:00|2026-11-07 14:55:00|TRANSFER|155            |103342.2     |666.72       |24        |2026-11-07 14:54:00|TRANSFER|
+|2026-11-07 14:54:00|2026-11-07 14:55:00|CASH_OUT|132            |54436.78     |412.4        |5         |2026-11-07 14:54:00|CASH_OUT|
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+
+26/11/07 13:54:21 WARN CaseInsensitiveStringMap: Converting duplicated key operationtype into CaseInsensitiveStringMap.
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|minute_debut       |minute_fin         |type    |nb_transactions|montant_total|montant_moyen|nb_fraudes|_id                         |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|2026-11-07 14:54:00|2026-11-07 14:55:00|CASH_OUT|255            |88780.31     |348.16       |11        |2026-11-07 14:54:00|CASH_OUT|
+|2026-11-07 14:54:00|2026-11-07 14:55:00|DEBIT   |252            |20680.4      |82.07        |0         |2026-11-07 14:54:00|DEBIT   |
+|2026-11-07 14:54:00|2026-11-07 14:55:00|CASH_IN |260            |19475.71     |74.91        |0         |2026-11-07 14:54:00|CASH_IN |
+|2026-11-07 14:54:00|2026-11-07 14:55:00|TRANSFER|307            |340310.64    |1108.5       |49        |2026-11-07 14:54:00|TRANSFER|
+|2026-11-07 14:54:00|2026-11-07 14:55:00|PAYMENT |733            |54299.2      |74.08        |0         |2026-11-07 14:54:00|PAYMENT |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+
+26/11/07 13:54:41 WARN CaseInsensitiveStringMap: Converting duplicated key operationtype into CaseInsensitiveStringMap.
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|minute_debut       |minute_fin         |type    |nb_transactions|montant_total|montant_moyen|nb_fraudes|_id                         |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|2026-11-07 14:54:00|2026-11-07 14:55:00|PAYMENT |1104           |84497.01     |76.54        |0         |2026-11-07 14:54:00|PAYMENT |
+|2026-11-07 14:54:00|2026-11-07 14:55:00|DEBIT   |379            |29493.77     |77.82        |0         |2026-11-07 14:54:00|DEBIT   |
+|2026-11-07 14:54:00|2026-11-07 14:55:00|CASH_IN |375            |28065.4      |74.84        |0         |2026-11-07 14:54:00|CASH_IN |
+|2026-11-07 14:54:00|2026-11-07 14:55:00|TRANSFER|475            |556475.69    |1171.53      |78        |2026-11-07 14:54:00|TRANSFER|
+|2026-11-07 14:54:00|2026-11-07 14:55:00|CASH_OUT|372            |165958.73    |446.13       |21        |2026-11-07 14:54:00|CASH_OUT|
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+
+26/11/07 13:55:02 WARN CaseInsensitiveStringMap: Converting duplicated key operationtype into CaseInsensitiveStringMap.
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|minute_debut       |minute_fin         |type    |nb_transactions|montant_total|montant_moyen|nb_fraudes|_id                         |
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+|2026-11-07 14:55:00|2026-11-07 14:56:00|CASH_IN |141            |12126.29     |86.0         |0         |2026-11-07 14:55:00|CASH_IN |
+|2026-11-07 14:55:00|2026-11-07 14:56:00|CASH_OUT|140            |19068.35     |136.2        |3         |2026-11-07 14:55:00|CASH_OUT|
+|2026-11-07 14:55:00|2026-11-07 14:56:00|PAYMENT |399            |30004.67     |75.2         |0         |2026-11-07 14:55:00|PAYMENT |
+|2026-11-07 14:55:00|2026-11-07 14:56:00|DEBIT   |110            |8652.17      |78.66        |0         |2026-11-07 14:55:00|DEBIT   |
+|2026-11-07 14:55:00|2026-11-07 14:56:00|TRANSFER|120            |21315.21     |177.63       |7         |2026-11-07 14:55:00|TRANSFER|
++-------------------+-------------------+--------+---------------+-------------+-------------+----------+----------------------------+
+
+26/11/07 13:55:22 WARN CaseInsensitiveStringMap: Converting duplicated key operationtype into CaseInsensitiveStringMap.
+^CERROR:root:Exception while sending command.
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=3>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+ERROR:root:Exception while sending command.
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 381, in signal_handler
+    self.cancelAllJobs()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 2446, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o18.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+Traceback (most recent call last):
+  File "/opt/spark/work-dir/p1_streaming_kafka_hdfs.py", line 80, in <module>
+    spark.streams.awaitAnyTermination()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/streaming/query.py", line 596, in awaitAnyTermination
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 179, in deco
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 334, in get_return_value
+py4j.protocol.Py4JError: An error occurred while calling o162.awaitAnyTermination
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packages org.mongodb.spark:mongo-spark-connector_2.12:10.2.0 --py-files /opt/spark/work-dir/common.py /opt/spark/work-dir/p2_hdfs_to_mongo_graph.py                                                             
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml                                   
+Ivy Default Cache set to: /opt/spark/.ivy2/cache                                           
+The jars for the packages stored in: /opt/spark/.ivy2/jars
+org.mongodb.spark#mongo-spark-connector_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-24960960-2bc0-45f3-b023-cdf9223bfbb0;1.0
+        confs: [default]
+        found org.mongodb.spark#mongo-spark-connector_2.12;10.2.0 in central
+        found org.mongodb#mongodb-driver-sync;4.8.2 in central
+        [4.8.2] org.mongodb#mongodb-driver-sync;[4.8.1,4.8.99)
+        found org.mongodb#bson;4.8.2 in central
+        found org.mongodb#mongodb-driver-core;4.8.2 in central
+        found org.mongodb#bson-record-codec;4.8.2 in central
+:: resolution report :: resolve 1990ms :: artifacts dl 8ms
+        :: modules in use:
+        org.mongodb#bson;4.8.2 from central in [default]
+        org.mongodb#bson-record-codec;4.8.2 from central in [default]
+        org.mongodb#mongodb-driver-core;4.8.2 from central in [default]
+        org.mongodb#mongodb-driver-sync;4.8.2 from central in [default]
+        org.mongodb.spark#mongo-spark-connector_2.12;10.2.0 from central in [default]
+        ---------------------------------------------------------------------
+        |                  |            modules            ||   artifacts   |
+        |       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+        ---------------------------------------------------------------------
+        |      default     |   5   |   1   |   0   |   0   ||   5   |   0   |
+        ---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-24960960-2bc0-45f3-b023-cdf9223bfbb0
+        confs: [default]
+        0 artifacts copied, 5 already retrieved (0kB/7ms)
+26/11/07 13:57:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/07 13:57:08 INFO SparkContext: Running Spark version 3.5.0
+26/11/07 13:57:08 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/11/07 13:57:08 INFO SparkContext: Java version 11.0.20.1
+26/11/07 13:57:08 INFO ResourceUtils: ==============================================================
+26/11/07 13:57:08 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/11/07 13:57:08 INFO ResourceUtils: ==============================================================
+26/11/07 13:57:08 INFO SparkContext: Submitted application: P2-HDFS-to-Mongo-Graph
+26/11/07 13:57:08 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/11/07 13:57:08 INFO ResourceProfile: Limiting resource is cpu
+26/11/07 13:57:08 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/11/07 13:57:08 INFO SecurityManager: Changing view acls to: spark
+26/11/07 13:57:08 INFO SecurityManager: Changing modify acls to: spark
+26/11/07 13:57:08 INFO SecurityManager: Changing view acls groups to: 
+26/11/07 13:57:08 INFO SecurityManager: Changing modify acls groups to: 
+26/11/07 13:57:08 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+26/11/07 13:57:09 INFO Utils: Successfully started service 'sparkDriver' on port 39329.
+26/11/07 13:57:09 INFO SparkEnv: Registering MapOutputTracker
+26/11/07 13:57:09 INFO SparkEnv: Registering BlockManagerMaster
+26/11/07 13:57:09 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/11/07 13:57:09 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/11/07 13:57:09 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/11/07 13:57:09 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-22c90aa6-9023-4ce6-8d23-f38324ab1253
+26/11/07 13:57:09 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/11/07 13:57:09 INFO SparkEnv: Registering OutputCommitCoordinator
+26/11/07 13:57:09 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/11/07 13:57:09 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/11/07 13:57:09 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar at spark://b11f4956d03f:39329/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-4.8.2.jar at spark://b11f4956d03f:39329/jars/org.mongodb_mongodb-driver-sync-4.8.2.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_bson-4.8.2.jar at spark://b11f4956d03f:39329/jars/org.mongodb_bson-4.8.2.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-4.8.2.jar at spark://b11f4956d03f:39329/jars/org.mongodb_mongodb-driver-core-4.8.2.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-4.8.2.jar at spark://b11f4956d03f:39329/jars/org.mongodb_bson-record-codec-4.8.2.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO SparkContext: Added file file:///opt/spark/work-dir/common.py at spark://b11f4956d03f:39329/files/common.py with timestamp 1794059828734
+26/11/07 13:57:09 INFO Utils: Copying /opt/spark/work-dir/common.py to /tmp/spark-be5a915e-0b1f-410f-b906-db1d21bc9d1a/userFiles-808fc964-ed90-432f-871a-beb763f963a0/common.py
+26/11/07 13:57:09 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar at spark://b11f4956d03f:39329/files/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar to /tmp/spark-be5a915e-0b1f-410f-b906-db1d21bc9d1a/userFiles-808fc964-ed90-432f-871a-beb763f963a0/org.mongodb.spark_mongo-spark-connector_2.12-10.2.0.jar
+26/11/07 13:57:09 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-4.8.2.jar at spark://b11f4956d03f:39329/files/org.mongodb_mongodb-driver-sync-4.8.2.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-4.8.2.jar to /tmp/spark-be5a915e-0b1f-410f-b906-db1d21bc9d1a/userFiles-808fc964-ed90-432f-871a-beb763f963a0/org.mongodb_mongodb-driver-sync-4.8.2.jar
+26/11/07 13:57:09 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_bson-4.8.2.jar at spark://b11f4956d03f:39329/files/org.mongodb_bson-4.8.2.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_bson-4.8.2.jar to /tmp/spark-be5a915e-0b1f-410f-b906-db1d21bc9d1a/userFiles-808fc964-ed90-432f-871a-beb763f963a0/org.mongodb_bson-4.8.2.jar
+26/11/07 13:57:09 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-4.8.2.jar at spark://b11f4956d03f:39329/files/org.mongodb_mongodb-driver-core-4.8.2.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-4.8.2.jar to /tmp/spark-be5a915e-0b1f-410f-b906-db1d21bc9d1a/userFiles-808fc964-ed90-432f-871a-beb763f963a0/org.mongodb_mongodb-driver-core-4.8.2.jar
+26/11/07 13:57:09 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-4.8.2.jar at spark://b11f4956d03f:39329/files/org.mongodb_bson-record-codec-4.8.2.jar with timestamp 1794059828734
+26/11/07 13:57:09 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-4.8.2.jar to /tmp/spark-be5a915e-0b1f-410f-b906-db1d21bc9d1a/userFiles-808fc964-ed90-432f-871a-beb763f963a0/org.mongodb_bson-record-codec-4.8.2.jar
+26/11/07 13:57:09 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+26/11/07 13:57:09 INFO TransportClientFactory: Successfully created connection to spark-master/172.19.0.5:7077 after 27 ms (0 ms spent in bootstraps)
+26/11/07 13:57:09 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20261107135709-0004
+26/11/07 13:57:09 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261107135709-0004/0 on worker-20261107131826-172.19.0.9-46767 (172.19.0.9:46767) with 2 core(s)
+26/11/07 13:57:09 INFO StandaloneSchedulerBackend: Granted executor ID app-20261107135709-0004/0 on hostPort 172.19.0.9:46767 with 2 core(s), 1024.0 MiB RAM
+26/11/07 13:57:09 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46497.
+26/11/07 13:57:09 INFO NettyBlockTransferService: Server created on b11f4956d03f:46497
+26/11/07 13:57:09 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/11/07 13:57:09 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, b11f4956d03f, 46497, None)
+26/11/07 13:57:09 INFO BlockManagerMasterEndpoint: Registering block manager b11f4956d03f:46497 with 434.4 MiB RAM, BlockManagerId(driver, b11f4956d03f, 46497, None)
+26/11/07 13:57:09 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, b11f4956d03f, 46497, None)
+26/11/07 13:57:09 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, b11f4956d03f, 46497, None)
+26/11/07 13:57:09 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261107135709-0004/0 is now RUNNING
+26/11/07 13:57:10 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+26/11/07 13:57:17 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+26/11/07 13:57:27 WARN TaskSetManager: Lost task 0.0 in stage 19.0 (TID 142) (172.19.0.9 executor 0): java.lang.NoSuchMethodError: 'org.apache.spark.sql.catalyst.encoders.ExpressionEncoder org.apache.spark.sql.catalyst.encoders.RowEncoder$.apply(org.apache.spark.sql.types.StructType)'
+        at com.mongodb.spark.sql.connector.schema.InternalRowToRowFunction.<init>(InternalRowToRowFunction.java:44)
+        at com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverter.<init>(RowToBsonDocumentConverter.java:84)
+        at com.mongodb.spark.sql.connector.write.MongoDataWriter.<init>(MongoDataWriter.java:74)
+        at com.mongodb.spark.sql.connector.write.MongoDataWriterFactory.createWriter(MongoDataWriterFactory.java:53)
+        at org.apache.spark.sql.execution.datasources.v2.WritingSparkTask.run(WriteToDataSourceV2Exec.scala:436)
+        at org.apache.spark.sql.execution.datasources.v2.WritingSparkTask.run$(WriteToDataSourceV2Exec.scala:425)
+        at org.apache.spark.sql.execution.datasources.v2.DataWritingSparkTask$.run(WriteToDataSourceV2Exec.scala:491)
+        at org.apache.spark.sql.execution.datasources.v2.V2TableWriteExec.$anonfun$writeWithV2$2(WriteToDataSourceV2Exec.scala:388)
+        at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+        at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+        at org.apache.spark.scheduler.Task.run(Task.scala:141)
+        at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+        at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+        at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+        at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+        at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+        at java.base/java.lang.Thread.run(Unknown Source)
+
+26/11/07 13:57:28 ERROR TaskSetManager: Task 0 in stage 19.0 failed 4 times; aborting job
+26/11/07 13:57:28 ERROR OverwriteByExpressionExec: Data source write support com.mongodb.spark.sql.connector.write.MongoBatchWrite@46221bd is aborting.
+26/11/07 13:57:28 ERROR OverwriteByExpressionExec: Data source write support com.mongodb.spark.sql.connector.write.MongoBatchWrite@46221bd failed to abort.
+Traceback (most recent call last):
+  File "/opt/spark/work-dir/p2_hdfs_to_mongo_graph.py", line 75, in <module>
+    to_mongo(nodes, "graph_nodes")
+  File "/opt/spark/work-dir/p2_hdfs_to_mongo_graph.py", line 22, in to_mongo
+    (df.write.format("mongodb").mode("overwrite")
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 1461, in save
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 179, in deco
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 326, in get_return_value
+py4j.protocol.Py4JJavaError: An error occurred while calling o201.save.
+: org.apache.spark.SparkException: Writing job failed.
+        at org.apache.spark.sql.errors.QueryExecutionErrors$.writingJobFailedError(QueryExecutionErrors.scala:902)
+        at org.apache.spark.sql.execution.datasources.v2.V2TableWriteExec.writeWithV2(WriteToDataSourceV2Exec.scala:411)
+        at org.apache.spark.sql.execution.datasources.v2.V2TableWriteExec.writeWithV2$(WriteToDataSourceV2Exec.scala:359)
+        at org.apache.spark.sql.execution.datasources.v2.OverwriteByExpressionExec.writeWithV2(WriteToDataSourceV2Exec.scala:243)
+        at org.apache.spark.sql.execution.datasources.v2.V2ExistingTableWriteExec.run(WriteToDataSourceV2Exec.scala:337)
+        at org.apache.spark.sql.execution.datasources.v2.V2ExistingTableWriteExec.run$(WriteToDataSourceV2Exec.scala:336)
+        at org.apache.spark.sql.execution.datasources.v2.OverwriteByExpressionExec.run(WriteToDataSourceV2Exec.scala:243)
+        at org.apache.spark.sql.execution.datasources.v2.V2CommandExec.result$lzycompute(V2CommandExec.scala:43)
+        at org.apache.spark.sql.execution.datasources.v2.V2CommandExec.result(V2CommandExec.scala:43)
+        at org.apache.spark.sql.execution.datasources.v2.V2CommandExec.executeCollect(V2CommandExec.scala:49)
+        at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+        at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+        at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+        at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+        at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+        at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+        at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+        at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+        at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+        at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+        at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+        at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+        at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+        at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+        at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+        at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+        at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+        at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+        at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+        at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+        at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+        at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+        at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:319)
+        at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+        at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+        at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+        at py4j.Gateway.invoke(Gateway.java:282)
+        at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+        at py4j.commands.CallCommand.execute(CallCommand.java:79)
+        at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+        at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+        at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 19.0 failed 4 times, most recent failure: Lost task 0.3 in stage 19.0 (TID 145) (172.19.0.9 executor 0): java.lang.NoSuchMethodError: 'org.apache.spark.sql.catalyst.encoders.ExpressionEncoder org.apache.spark.sql.catalyst.encoders.RowEncoder$.apply(org.apache.spark.sql.types.StructType)'
+        at com.mongodb.spark.sql.connector.schema.InternalRowToRowFunction.<init>(InternalRowToRowFunction.java:44)
+        at com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverter.<init>(RowToBsonDocumentConverter.java:84)
+        at com.mongodb.spark.sql.connector.write.MongoDataWriter.<init>(MongoDataWriter.java:74)
+        at com.mongodb.spark.sql.connector.write.MongoDataWriterFactory.createWriter(MongoDataWriterFactory.java:53)
+        at org.apache.spark.sql.execution.datasources.v2.WritingSparkTask.run(WriteToDataSourceV2Exec.scala:436)
+        at org.apache.spark.sql.execution.datasources.v2.WritingSparkTask.run$(WriteToDataSourceV2Exec.scala:425)
+        at org.apache.spark.sql.execution.datasources.v2.DataWritingSparkTask$.run(WriteToDataSourceV2Exec.scala:491)
+        at org.apache.spark.sql.execution.datasources.v2.V2TableWriteExec.$anonfun$writeWithV2$2(WriteToDataSourceV2Exec.scala:388)
+        at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+        at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+        at org.apache.spark.scheduler.Task.run(Task.scala:141)
+        at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+        at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+        at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+        at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+        at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+        at java.base/java.lang.Thread.run(Unknown Source)
+
+Driver stacktrace:
+        at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+        at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+        at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+        at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+        at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+        at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+        at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+        at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1242)
+        at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1242)
+        at scala.Option.foreach(Option.scala:407)
+        at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1242)
+        at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3048)
+        at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+        at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+        at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+        at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+        at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+        at org.apache.spark.sql.execution.datasources.v2.V2TableWriteExec.writeWithV2(WriteToDataSourceV2Exec.scala:385)
+        ... 44 more
+        Suppressed: com.mongodb.spark.sql.connector.exceptions.DataException: Write aborted for: 543bd8e8-8894-42dd-8dfe-93094fde7f05. 0/1 tasks completed.
+                at com.mongodb.spark.sql.connector.write.MongoBatchWrite.abort(MongoBatchWrite.java:91)
+                at org.apache.spark.sql.execution.datasources.v2.V2TableWriteExec.writeWithV2(WriteToDataSourceV2Exec.scala:406)
+                ... 44 more
+Caused by: java.lang.NoSuchMethodError: 'org.apache.spark.sql.catalyst.encoders.ExpressionEncoder org.apache.spark.sql.catalyst.encoders.RowEncoder$.apply(org.apache.spark.sql.types.StructType)'
+        at com.mongodb.spark.sql.connector.schema.InternalRowToRowFunction.<init>(InternalRowToRowFunction.java:44)
+        at com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverter.<init>(RowToBsonDocumentConverter.java:84)
+        at com.mongodb.spark.sql.connector.write.MongoDataWriter.<init>(MongoDataWriter.java:74)
+        at com.mongodb.spark.sql.connector.write.MongoDataWriterFactory.createWriter(MongoDataWriterFactory.java:53)
+        at org.apache.spark.sql.execution.datasources.v2.WritingSparkTask.run(WriteToDataSourceV2Exec.scala:436)
+        at org.apache.spark.sql.execution.datasources.v2.WritingSparkTask.run$(WriteToDataSourceV2Exec.scala:425)
+        at org.apache.spark.sql.execution.datasources.v2.DataWritingSparkTask$.run(WriteToDataSourceV2Exec.scala:491)
+        at org.apache.spark.sql.execution.datasources.v2.V2TableWriteExec.$anonfun$writeWithV2$2(WriteToDataSourceV2Exec.scala:388)
+        at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+        at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+        at org.apache.spark.scheduler.Task.run(Task.scala:141)
+        at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+        at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+        at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+        at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+        at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+        ... 1 more                                                                                     docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packages org.mongodb.spark:mongo-spark-connector_2.12:10.4.0 --py-files /opt/spark/work-dir/common.py /opt/spark/work-dir/p2_hdfs_to_mongo_graph.py-bigdata\fraud> 
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /opt/spark/.ivy2/cache
+The jars for the packages stored in: /opt/spark/.ivy2/jars
+org.mongodb.spark#mongo-spark-connector_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-10a68cec-28bc-4935-b6ef-88502be9f52c;1.0
+        confs: [default]
+        found org.mongodb.spark#mongo-spark-connector_2.12;10.4.0 in central
+        found org.mongodb#mongodb-driver-sync;5.1.4 in central
+        [5.1.4] org.mongodb#mongodb-driver-sync;[5.1.1,5.1.99)
+        found org.mongodb#bson;5.1.4 in central
+        found org.mongodb#mongodb-driver-core;5.1.4 in central
+        found org.mongodb#bson-record-codec;5.1.4 in central
+:: resolution report :: resolve 2109ms :: artifacts dl 8ms
+        :: modules in use:
+        org.mongodb#bson;5.1.4 from central in [default]
+        org.mongodb#bson-record-codec;5.1.4 from central in [default]
+        org.mongodb#mongodb-driver-core;5.1.4 from central in [default]
+        org.mongodb#mongodb-driver-sync;5.1.4 from central in [default]
+        org.mongodb.spark#mongo-spark-connector_2.12;10.4.0 from central in [default]
+        ---------------------------------------------------------------------
+        |                  |            modules            ||   artifacts   |
+        |       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+        ---------------------------------------------------------------------
+        |      default     |   5   |   1   |   0   |   0   ||   5   |   0   |
+        ---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-10a68cec-28bc-4935-b6ef-88502be9f52c
+        confs: [default]
+        0 artifacts copied, 5 already retrieved (0kB/8ms)
+26/11/07 13:59:03 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/07 13:59:04 INFO SparkContext: Running Spark version 3.5.0
+26/11/07 13:59:04 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/11/07 13:59:04 INFO SparkContext: Java version 11.0.20.1
+26/11/07 13:59:04 INFO ResourceUtils: ==============================================================
+26/11/07 13:59:04 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/11/07 13:59:04 INFO ResourceUtils: ==============================================================
+26/11/07 13:59:04 INFO SparkContext: Submitted application: P2-HDFS-to-Mongo-Graph
+26/11/07 13:59:04 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/11/07 13:59:04 INFO ResourceProfile: Limiting resource is cpu
+26/11/07 13:59:04 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/11/07 13:59:04 INFO SecurityManager: Changing view acls to: spark
+26/11/07 13:59:04 INFO SecurityManager: Changing modify acls to: spark
+26/11/07 13:59:04 INFO SecurityManager: Changing view acls groups to: 
+26/11/07 13:59:04 INFO SecurityManager: Changing modify acls groups to: 
+26/11/07 13:59:04 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+26/11/07 13:59:04 INFO Utils: Successfully started service 'sparkDriver' on port 43939.
+26/11/07 13:59:04 INFO SparkEnv: Registering MapOutputTracker
+26/11/07 13:59:04 INFO SparkEnv: Registering BlockManagerMaster
+26/11/07 13:59:04 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/11/07 13:59:04 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/11/07 13:59:04 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/11/07 13:59:04 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-bbf2a185-ea4e-4ab0-adc6-c23e11d34935
+26/11/07 13:59:04 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/11/07 13:59:04 INFO SparkEnv: Registering OutputCommitCoordinator
+26/11/07 13:59:04 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/11/07 13:59:04 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/11/07 13:59:05 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar at spark://b11f4956d03f:43939/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-5.1.4.jar at spark://b11f4956d03f:43939/jars/org.mongodb_mongodb-driver-sync-5.1.4.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_bson-5.1.4.jar at spark://b11f4956d03f:43939/jars/org.mongodb_bson-5.1.4.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-5.1.4.jar at spark://b11f4956d03f:43939/jars/org.mongodb_mongodb-driver-core-5.1.4.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-5.1.4.jar at spark://b11f4956d03f:43939/jars/org.mongodb_bson-record-codec-5.1.4.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO SparkContext: Added file file:///opt/spark/work-dir/common.py at spark://b11f4956d03f:43939/files/common.py with timestamp 1794059944256
+26/11/07 13:59:05 INFO Utils: Copying /opt/spark/work-dir/common.py to /tmp/spark-b546d91f-e35d-45ed-bbe3-a6d9078b70e4/userFiles-36144972-32fe-43aa-9af1-914bd94a5166/common.py
+26/11/07 13:59:05 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar at spark://b11f4956d03f:43939/files/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar to /tmp/spark-b546d91f-e35d-45ed-bbe3-a6d9078b70e4/userFiles-36144972-32fe-43aa-9af1-914bd94a5166/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar
+26/11/07 13:59:05 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-5.1.4.jar at spark://b11f4956d03f:43939/files/org.mongodb_mongodb-driver-sync-5.1.4.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-5.1.4.jar to /tmp/spark-b546d91f-e35d-45ed-bbe3-a6d9078b70e4/userFiles-36144972-32fe-43aa-9af1-914bd94a5166/org.mongodb_mongodb-driver-sync-5.1.4.jar
+26/11/07 13:59:05 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_bson-5.1.4.jar at spark://b11f4956d03f:43939/files/org.mongodb_bson-5.1.4.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_bson-5.1.4.jar to /tmp/spark-b546d91f-e35d-45ed-bbe3-a6d9078b70e4/userFiles-36144972-32fe-43aa-9af1-914bd94a5166/org.mongodb_bson-5.1.4.jar
+26/11/07 13:59:05 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-5.1.4.jar at spark://b11f4956d03f:43939/files/org.mongodb_mongodb-driver-core-5.1.4.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-5.1.4.jar to /tmp/spark-b546d91f-e35d-45ed-bbe3-a6d9078b70e4/userFiles-36144972-32fe-43aa-9af1-914bd94a5166/org.mongodb_mongodb-driver-core-5.1.4.jar
+26/11/07 13:59:05 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-5.1.4.jar at spark://b11f4956d03f:43939/files/org.mongodb_bson-record-codec-5.1.4.jar with timestamp 1794059944256
+26/11/07 13:59:05 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-5.1.4.jar to /tmp/spark-b546d91f-e35d-45ed-bbe3-a6d9078b70e4/userFiles-36144972-32fe-43aa-9af1-914bd94a5166/org.mongodb_bson-record-codec-5.1.4.jar
+26/11/07 13:59:05 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+26/11/07 13:59:05 INFO TransportClientFactory: Successfully created connection to spark-master/172.19.0.5:7077 after 27 ms (0 ms spent in bootstraps)
+26/11/07 13:59:05 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20261107135905-0005
+26/11/07 13:59:05 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261107135905-0005/0 on worker-20261107131826-172.19.0.9-46767 (172.19.0.9:46767) with 2 core(s)
+26/11/07 13:59:05 INFO StandaloneSchedulerBackend: Granted executor ID app-20261107135905-0005/0 on hostPort 172.19.0.9:46767 with 2 core(s), 1024.0 MiB RAM
+26/11/07 13:59:05 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35813.
+26/11/07 13:59:05 INFO NettyBlockTransferService: Server created on b11f4956d03f:35813
+26/11/07 13:59:05 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/11/07 13:59:05 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, b11f4956d03f, 35813, None)
+26/11/07 13:59:05 INFO BlockManagerMasterEndpoint: Registering block manager b11f4956d03f:35813 with 434.4 MiB RAM, BlockManagerId(driver, b11f4956d03f, 35813, None)
+26/11/07 13:59:05 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, b11f4956d03f, 35813, None)
+26/11/07 13:59:05 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, b11f4956d03f, 35813, None)
+26/11/07 13:59:05 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261107135905-0005/0 is now RUNNING
+26/11/07 13:59:05 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+26/11/07 13:59:13 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+-> fraud_lab.graph_nodes : 11488 documents
+-> fraud_lab.graph_edges : 88222 documents
+-> fraud_lab.graph_nodes_suspect : 11380 documents
+-> fraud_lab.graph_edges_suspect : 41760 documents
+Top 10 comptes recevant de plus d'expéditeurs distincts (candidats 'hubs') :
++----------+-----------+--------------+------------------+--------------+
+|Id        |in_partners|total_received|pass_through_ratio|fraud_involved|
++----------+-----------+--------------+------------------+--------------+
+|C964362516|370        |7689998.14    |0.978             |1             |
+|C925458308|366        |7523313.14    |0.982             |1             |
+|C948858073|365        |7781230.6     |0.982             |1             |
+|C966061934|364        |7317731.98    |0.985             |1             |
+|C958567046|56         |349988.63     |0.666             |1             |
+|C953589647|54         |310007.44     |0.716             |1             |
+|C944355473|51         |258080.66     |0.593             |1             |
+|C932566390|49         |376455.39     |0.775             |1             |
+|C978515906|48         |336837.85     |0.784             |1             |
+|C963747464|47         |258414.94     |0.68              |1             |
++----------+-----------+--------------+------------------+--------------+
+only showing top 10 rows
+
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> bash gephi/export_for_gephi.sh
+2026-11-07T14:01:01.367+0000    connected to: mongodb://localhost/
+2026-11-07T14:01:01.565+0000    exported 11380 records
+2026-11-07T14:01:01.742+0000    connected to: mongodb://localhost/
+2026-11-07T14:01:02.188+0000    exported 41760 records
+Fichiers générés dans ./gephi : nodes_suspect.csv et edges_suspect.csv
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packages org.mongodb.spark:mongo-spark-connector_2.12:10.4.0 --py-files /opt/spark/work-dir/common.py /opt/spark/work-dir/p3_ml_fraud.py                                                                        
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml                               
+Ivy Default Cache set to: /opt/spark/.ivy2/cache                                
+The jars for the packages stored in: /opt/spark/.ivy2/jars
+org.mongodb.spark#mongo-spark-connector_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-b56e7d70-4eb1-4a47-8bf9-8d24feafd5b4;1.0
+        confs: [default]
+        found org.mongodb.spark#mongo-spark-connector_2.12;10.4.0 in central
+        found org.mongodb#mongodb-driver-sync;5.1.4 in central
+        [5.1.4] org.mongodb#mongodb-driver-sync;[5.1.1,5.1.99)
+        found org.mongodb#bson;5.1.4 in central
+        found org.mongodb#mongodb-driver-core;5.1.4 in central
+        found org.mongodb#bson-record-codec;5.1.4 in central
+:: resolution report :: resolve 2088ms :: artifacts dl 10ms
+        :: modules in use:
+        org.mongodb#bson;5.1.4 from central in [default]
+        org.mongodb#bson-record-codec;5.1.4 from central in [default]
+        org.mongodb#mongodb-driver-core;5.1.4 from central in [default]
+        org.mongodb#mongodb-driver-sync;5.1.4 from central in [default]
+        org.mongodb.spark#mongo-spark-connector_2.12;10.4.0 from central in [default]
+        ---------------------------------------------------------------------
+        |                  |            modules            ||   artifacts   |
+        |       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+        ---------------------------------------------------------------------
+        |      default     |   5   |   1   |   0   |   0   ||   5   |   0   |
+        ---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-b56e7d70-4eb1-4a47-8bf9-8d24feafd5b4
+        confs: [default]
+        0 artifacts copied, 5 already retrieved (0kB/14ms)
+26/11/07 14:04:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Traceback (most recent call last):
+  File "/opt/spark/work-dir/p3_ml_fraud.py", line 18, in <module>
+    from pyspark.ml.functions import vector_to_array
+  File "<frozen zipimport>", line 259, in load_module
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/functions.py", line 21, in <module>
+ModuleNotFoundError: No module named 'pandas'
+26/11/07 14:04:15 INFO ShutdownHookManager: Shutdown hook called
+26/11/07 14:04:15 INFO ShutdownHookManager: Deleting directory /tmp/spark-f66f1b36-4f34-4e94-a367-ec01b92b9813
+26/11/07 14:04:15 INFO ShutdownHookManager: Deleting directory /tmp/localPyFiles-6848ea80-3a99-4930-9e0b-01151a923d59
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> pip install pandas
+Collecting pandas
+  Downloading pandas-3.1.1-cp312-cp312-win_amd64.whl.metadata (16 kB)
+Collecting numpy>=2.0.2 (from pandas)
+  Using cached numpy-2.5.4-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
+Collecting python-dateutil>=2.9.0 (from pandas)
+  Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting tzdata (from pandas)
+  Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Downloading pandas-3.1.1-cp312-cp312-win_amd64.whl (10.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.8/10.8 MB 2.6 MB/s eta 0:00:00
+Using cached numpy-2.5.4-cp312-cp312-win_amd64.whl (12.6 MB)
+Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Installing collected packages: tzdata, numpy, python-dateutil, pandas
+Successfully installed numpy-2.5.4 pandas-3.1.1 python-dateutil-4.0.0 tzdata-2026.6
+
+[notice] A new release of pip is available: 24.2 -> 26.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packages org.mongodb.spark:mongo-spark-connector_2.12:10.4.0 --py-files /opt/spark/work-dir/common.py /opt/spark/work-dir/p3_ml_fraud.py
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /opt/spark/.ivy2/cache
+The jars for the packages stored in: /opt/spark/.ivy2/jars
+org.mongodb.spark#mongo-spark-connector_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-dec1a68f-1128-451f-bb19-ae827ac8bf57;1.0
+        confs: [default]
+        found org.mongodb.spark#mongo-spark-connector_2.12;10.4.0 in central
+        found org.mongodb#mongodb-driver-sync;5.1.4 in central
+        [5.1.4] org.mongodb#mongodb-driver-sync;[5.1.1,5.1.99)
+        found org.mongodb#bson;5.1.4 in central
+        found org.mongodb#mongodb-driver-core;5.1.4 in central
+        found org.mongodb#bson-record-codec;5.1.4 in central
+:: resolution report :: resolve 1721ms :: artifacts dl 7ms
+        :: modules in use:
+        org.mongodb#bson;5.1.4 from central in [default]
+        org.mongodb#bson-record-codec;5.1.4 from central in [default]
+        org.mongodb#mongodb-driver-core;5.1.4 from central in [default]
+        org.mongodb#mongodb-driver-sync;5.1.4 from central in [default]
+        org.mongodb.spark#mongo-spark-connector_2.12;10.4.0 from central in [default]
+        ---------------------------------------------------------------------
+        |                  |            modules            ||   artifacts   |
+        |       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+        ---------------------------------------------------------------------
+        |      default     |   5   |   1   |   0   |   0   ||   5   |   0   |
+        ---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-dec1a68f-1128-451f-bb19-ae827ac8bf57
+        confs: [default]
+        0 artifacts copied, 5 already retrieved (0kB/11ms)
+26/11/07 14:05:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Traceback (most recent call last):
+  File "/opt/spark/work-dir/p3_ml_fraud.py", line 18, in <module>
+    from pyspark.ml.functions import vector_to_array
+  File "<frozen zipimport>", line 259, in load_module
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/functions.py", line 21, in <module>
+ModuleNotFoundError: No module named 'pandas'
+26/11/07 14:05:09 INFO ShutdownHookManager: Shutdown hook called
+26/11/07 14:05:09 INFO ShutdownHookManager: Deleting directory /tmp/spark-9e70c04b-b342-44be-8a3e-1109de4fc621
+26/11/07 14:05:09 INFO ShutdownHookManager: Deleting directory /tmp/localPyFiles-2f2cacad-4282-4722-b7bf-a54ef5ab97bd
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> docker compose up -d --build
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.28kB 0.0s done
+#1 DONE 0.0s
+
+#2 [spark-worker internal] load build definition from Dockerfile
+#2 DONE 0.0s
+
+#2 [spark-worker internal] load build definition from Dockerfile
+#2 transferring dockerfile: 435B 0.0s done
+#2 DONE 0.1s
+
+#3 [spark-worker internal] load metadata for docker.io/apache/spark:3.5.0
+#3 DONE 0.3s
+
+#4 [spark-master internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [spark-master 1/3] FROM docker.io/apache/spark:3.5.0@sha256:0ed5154e6b32ac3af1272d4d65e9f65b13afcfe80b41ad10bd059bcd6317863c
+#5 resolve docker.io/apache/spark:3.5.0@sha256:0ed5154e6b32ac3af1272d4d65e9f65b13afcfe80b41ad10bd059bcd6317863c 0.0s done
+#5 CACHED
+
+#5 [spark-worker 1/3] FROM docker.io/apache/spark:3.5.0@sha256:0ed5154e6b32ac3af1272d4d65e9f65b13afcfe80b41ad10bd059bcd6317863c
+#5 CACHED
+
+#6 [spark-master 2/3] RUN apt-get update && apt-get install -y --no-install-recommends python3-pip     && pip3 install --no-cache-dir numpy==1.24.4 pandas     && rm -rf /var/lib/apt/lists/*
+#6 0.586 Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [128 kB]
+#6 0.743 Get:2 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
+#6 0.834 Get:3 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [1,300 kB]
+#6 1.425 Get:4 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [4,710 kB]
+#6 1.708 Get:5 http://archive.ubuntu.com/ubuntu focal-updates InRelease [128 kB]
+#6 2.229 Get:6 http://archive.ubuntu.com/ubuntu focal-backports InRelease [128 kB]
+#6 2.983 Get:7 http://archive.ubuntu.com/ubuntu focal/restricted amd64 Packages [33.4 kB]
+#6 2.989 Get:8 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [11.3 MB]
+#6 3.331 Get:9 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [32.5 kB]
+#6 3.331 Get:10 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [4,368 kB]
+#6 11.85 Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [1,275 kB]
+#6 12.16 Get:12 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [177 kB]
+#6 12.20 Get:13 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [4,904 kB]
+#6 13.46 Get:14 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [36.2 kB]
+#6 13.47 Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [4,850 kB]
+#6 14.72 Get:16 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,588 kB]
+#6 15.15 Get:17 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [28.4 kB]
+#6 15.16 Get:18 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [54.7 kB]
+#6 15.26 Fetched 35.3 MB in 15s (2,395 kB/s)
+#6 15.26 Reading package lists...
+#6 16.44 Reading package lists...
+#6 17.38 Building dependency tree...
+#6 17.62 Reading state information...
+#6 17.78 The following additional packages will be installed:
+#6 17.78   python-pip-whl
+#6 17.83 The following packages will be upgraded:
+#6 17.83   python-pip-whl python3-pip
+#6 18.09 2 upgraded, 0 newly installed, 0 to remove and 98 not upgraded.
+#6 18.09 Need to get 2,039 kB of archives.
+#6 18.09 After this operation, 5,120 B of additional disk space will be used.
+#6 18.09 Get:1 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 python3-pip all 20.0.2-5ubuntu1.11 [231 kB]
+#6 18.52 Get:2 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 python-pip-whl all 20.0.2-5ubuntu1.11 [1,808 kB]
+#6 20.18 debconf: delaying package configuration, since apt-utils is not installed
+#6 20.22 Fetched 2,039 kB in 2s (961 kB/s)
+(Reading database ... 17438 files and directories currently installed.)
+#6 20.31 Preparing to unpack .../python3-pip_20.0.2-5ubuntu1.11_all.deb ...
+#6 20.46 Unpacking python3-pip (20.0.2-5ubuntu1.11) over (20.0.2-5ubuntu1.9) ...
+#6 20.95 Preparing to unpack .../python-pip-whl_20.0.2-5ubuntu1.11_all.deb ...
+#6 20.96 Unpacking python-pip-whl (20.0.2-5ubuntu1.11) over (20.0.2-5ubuntu1.9) ...
+#6 21.21 Setting up python-pip-whl (20.0.2-5ubuntu1.11) ...
+#6 21.23 Setting up python3-pip (20.0.2-5ubuntu1.11) ...
+#6 23.09 Collecting numpy==1.24.4
+#6 23.17   Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+#6 25.37 Collecting pandas
+#6 25.42   Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+#6 26.88 Collecting tzdata>=2022.1
+#6 26.90   Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+#6 27.15 Collecting pytz>=2020.1
+#6 27.16   Downloading pytz-2026.6-py2.py3-none-any.whl (506 kB)
+#6 27.32 Collecting python-dateutil>=2.8.2
+#6 27.34   Downloading python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+#6 27.40 Collecting six>=1.6
+#6 27.41   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#6 27.52 Installing collected packages: numpy, tzdata, pytz, six, python-dateutil, pandas
+#6 33.57 Successfully installed numpy-1.24.4 pandas-2.0.3 python-dateutil-3.0.0 pytz-2026.6 six-1.17.0 tzdata-2026.6
+#6 DONE 33.9s
+
+#6 [spark-worker 2/3] RUN apt-get update && apt-get install -y --no-install-recommends python3-pip     && pip3 install --no-cache-dir numpy==1.24.4 pandas     && rm -rf /var/lib/apt/lists/*
+#6 DONE 33.9s
+
+#7 [spark-worker 3/3] RUN mkdir -p /opt/spark/.ivy2 && chmod -R 777 /opt/spark/.ivy2
+#7 DONE 0.3s
+
+#7 [spark-master 3/3] RUN mkdir -p /opt/spark/.ivy2 && chmod -R 777 /opt/spark/.ivy2
+#7 DONE 0.3s
+
+#8 [spark-worker] exporting to image
+#8 exporting layers
+#8 exporting layers 5.0s done
+#8 exporting manifest sha256:e5fe58677853d538b035a87fb584f3a85bff35d6ddb28d925eceaf7cdcf0847f 0.1s done
+#8 exporting config sha256:28f64781fe619312e8b507dbda681b6d22d777fe08a9d8cb6d9e1991a0a359d9 0.0s done
+#8 exporting attestation manifest sha256:81cd556f570ddfde886c66192716f174f4ec77bf1da7f2814febb46c068fbbe3 0.1s done
+#8 exporting manifest list sha256:0337ce13cfc8f52ea01f6f6dfa2d71858656857ef4b39499e61e770f2a4d60a4
+#8 exporting manifest list sha256:0337ce13cfc8f52ea01f6f6dfa2d71858656857ef4b39499e61e770f2a4d60a4 0.0s done
+#8 naming to docker.io/library/fraud-spark:3.5.0 done
+#8 unpacking to docker.io/library/fraud-spark:3.5.0
+#8 unpacking to docker.io/library/fraud-spark:3.5.0 2.0s done
+#8 DONE 7.4s
+
+#9 [spark-master] exporting to image
+#9 exporting layers 5.0s done
+#9 exporting manifest sha256:9300ed7d09a2a4d76458c68865ba7c4f8eb42d1408d1cfd40688a42e07434eac 0.0s done
+#9 exporting config sha256:b0ef5badb529a945a46e75beddd19ed72334b6ada3902ab04d15f12800a3d9c2 0.0s done
+#9 exporting attestation manifest sha256:d8b6569dd9afb5929f0ed3ac4e6f3c1cab678e45f514dc643a78ce4a9bd7d53d 0.1s done
+#9 exporting manifest list sha256:3946a7aded287c5388d9f8459caa753e87e93bf82988311d44cf0ec9d4d7703b 0.0s done
+#9 naming to docker.io/library/fraud-spark:3.5.0 0.0s done
+#9 unpacking to docker.io/library/fraud-spark:3.5.0 2.0s done
+#9 DONE 7.3s
+
+#10 [spark-master] resolving provenance for metadata file
+#10 DONE 0.0s
+
+#11 [spark-worker] resolving provenance for metadata file
+#11 DONE 0.0s
+[+] up 11/11
+ ✔ Image fraud-spark:3.5.0 Built                                                                                                               43.5s
+ ✔ Container ollama        Running                                                                                                             0.0s
+ ✔ Container mongodb       Running                                                                                                             0.0s
+ ✔ Container zookeeper     Running                                                                                                             0.0s
+ ✔ Container namenode      Running                                                                                                             0.0s
+ ✔ Container datanode      Running                                                                                                             0.0s
+ ✔ Container mongo-gui     Running                                                                                                             0.0s
+ ✔ Container kafka         Running                                                                                                             0.0s
+ ✔ Container kafdrop       Running                                                                                                             0.0s
+ ✔ Container spark-master  Recreated                                                                                                           1.7s
+ ✔ Container spark-worker  Recreated                                                                                                           1.3s
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packages org.mongodb.spark:mongo-spark-connector_2.12:10.4.0 --py-files /opt/spark/work-dir/common.py /opt/spark/work-dir/p3_ml_fraud.py
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /opt/spark/.ivy2/cache
+The jars for the packages stored in: /opt/spark/.ivy2/jars
+org.mongodb.spark#mongo-spark-connector_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-ab91eb93-05aa-47aa-a9b8-ed55f53e4cf2;1.0
+        confs: [default]
+        found org.mongodb.spark#mongo-spark-connector_2.12;10.4.0 in central
+        found org.mongodb#mongodb-driver-sync;5.1.4 in central
+        [5.1.4] org.mongodb#mongodb-driver-sync;[5.1.1,5.1.99)
+        found org.mongodb#bson;5.1.4 in central
+        found org.mongodb#mongodb-driver-core;5.1.4 in central
+        found org.mongodb#bson-record-codec;5.1.4 in central
+downloading https://repo1.maven.org/maven2/org/mongodb/spark/mongo-spark-connector_2.12/10.4.0/mongo-spark-connector_2.12-10.4.0.jar ...
+        [SUCCESSFUL ] org.mongodb.spark#mongo-spark-connector_2.12;10.4.0!mongo-spark-connector_2.12.jar (129ms)
+downloading https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-sync/5.1.4/mongodb-driver-sync-5.1.4.jar ...
+        [SUCCESSFUL ] org.mongodb#mongodb-driver-sync;5.1.4!mongodb-driver-sync.jar (69ms)
+downloading https://repo1.maven.org/maven2/org/mongodb/bson/5.1.4/bson-5.1.4.jar ...
+        [SUCCESSFUL ] org.mongodb#bson;5.1.4!bson.jar (95ms)
+downloading https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/5.1.4/mongodb-driver-core-5.1.4.jar ...
+        [SUCCESSFUL ] org.mongodb#mongodb-driver-core;5.1.4!mongodb-driver-core.jar (180ms)
+downloading https://repo1.maven.org/maven2/org/mongodb/bson-record-codec/5.1.4/bson-record-codec-5.1.4.jar ...
+        [SUCCESSFUL ] org.mongodb#bson-record-codec;5.1.4!bson-record-codec.jar (55ms)
+:: resolution report :: resolve 4142ms :: artifacts dl 537ms
+        :: modules in use:
+        org.mongodb#bson;5.1.4 from central in [default]
+        org.mongodb#bson-record-codec;5.1.4 from central in [default]
+        org.mongodb#mongodb-driver-core;5.1.4 from central in [default]
+        org.mongodb#mongodb-driver-sync;5.1.4 from central in [default]
+        org.mongodb.spark#mongo-spark-connector_2.12;10.4.0 from central in [default]
+        ---------------------------------------------------------------------
+        |                  |            modules            ||   artifacts   |
+        |       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+        ---------------------------------------------------------------------
+        |      default     |   5   |   5   |   5   |   0   ||   5   |   5   |
+        ---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-ab91eb93-05aa-47aa-a9b8-ed55f53e4cf2
+        confs: [default]
+        5 artifacts copied, 0 already retrieved (2522kB/16ms)
+26/11/07 14:08:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/07 14:08:24 INFO SparkContext: Running Spark version 3.5.0
+26/11/07 14:08:24 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/11/07 14:08:24 INFO SparkContext: Java version 11.0.20.1
+26/11/07 14:08:24 INFO ResourceUtils: ==============================================================
+26/11/07 14:08:24 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/11/07 14:08:24 INFO ResourceUtils: ==============================================================
+26/11/07 14:08:24 INFO SparkContext: Submitted application: P3-Fraud-MLlib
+26/11/07 14:08:24 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/11/07 14:08:24 INFO ResourceProfile: Limiting resource is cpu
+26/11/07 14:08:24 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/11/07 14:08:24 INFO SecurityManager: Changing view acls to: spark
+26/11/07 14:08:24 INFO SecurityManager: Changing modify acls to: spark
+26/11/07 14:08:24 INFO SecurityManager: Changing view acls groups to: 
+26/11/07 14:08:24 INFO SecurityManager: Changing modify acls groups to: 
+26/11/07 14:08:24 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+26/11/07 14:08:24 INFO Utils: Successfully started service 'sparkDriver' on port 40249.
+26/11/07 14:08:24 INFO SparkEnv: Registering MapOutputTracker
+26/11/07 14:08:24 INFO SparkEnv: Registering BlockManagerMaster
+26/11/07 14:08:24 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/11/07 14:08:24 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/11/07 14:08:24 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/11/07 14:08:24 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-7f7b8c94-72e7-4c28-bca9-6d06518bd765
+26/11/07 14:08:24 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/11/07 14:08:24 INFO SparkEnv: Registering OutputCommitCoordinator
+26/11/07 14:08:24 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/11/07 14:08:25 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/11/07 14:08:25 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar at spark://32cfceeeaa63:40249/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-5.1.4.jar at spark://32cfceeeaa63:40249/jars/org.mongodb_mongodb-driver-sync-5.1.4.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_bson-5.1.4.jar at spark://32cfceeeaa63:40249/jars/org.mongodb_bson-5.1.4.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-5.1.4.jar at spark://32cfceeeaa63:40249/jars/org.mongodb_mongodb-driver-core-5.1.4.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO SparkContext: Added JAR file:///opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-5.1.4.jar at spark://32cfceeeaa63:40249/jars/org.mongodb_bson-record-codec-5.1.4.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO SparkContext: Added file file:///opt/spark/work-dir/common.py at spark://32cfceeeaa63:40249/files/common.py with timestamp 1794060504302
+26/11/07 14:08:25 INFO Utils: Copying /opt/spark/work-dir/common.py to /tmp/spark-445bc2e0-af1f-4ed8-8f92-fb831822a69d/userFiles-1501a276-7dfb-4ac6-bf0f-079071c4543a/common.py
+26/11/07 14:08:25 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar at spark://32cfceeeaa63:40249/files/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar to /tmp/spark-445bc2e0-af1f-4ed8-8f92-fb831822a69d/userFiles-1501a276-7dfb-4ac6-bf0f-079071c4543a/org.mongodb.spark_mongo-spark-connector_2.12-10.4.0.jar
+26/11/07 14:08:25 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-5.1.4.jar at spark://32cfceeeaa63:40249/files/org.mongodb_mongodb-driver-sync-5.1.4.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-sync-5.1.4.jar to /tmp/spark-445bc2e0-af1f-4ed8-8f92-fb831822a69d/userFiles-1501a276-7dfb-4ac6-bf0f-079071c4543a/org.mongodb_mongodb-driver-sync-5.1.4.jar
+26/11/07 14:08:25 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_bson-5.1.4.jar at spark://32cfceeeaa63:40249/files/org.mongodb_bson-5.1.4.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_bson-5.1.4.jar to /tmp/spark-445bc2e0-af1f-4ed8-8f92-fb831822a69d/userFiles-1501a276-7dfb-4ac6-bf0f-079071c4543a/org.mongodb_bson-5.1.4.jar
+26/11/07 14:08:25 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-5.1.4.jar at spark://32cfceeeaa63:40249/files/org.mongodb_mongodb-driver-core-5.1.4.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_mongodb-driver-core-5.1.4.jar to /tmp/spark-445bc2e0-af1f-4ed8-8f92-fb831822a69d/userFiles-1501a276-7dfb-4ac6-bf0f-079071c4543a/org.mongodb_mongodb-driver-core-5.1.4.jar
+26/11/07 14:08:25 INFO SparkContext: Added file file:///opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-5.1.4.jar at spark://32cfceeeaa63:40249/files/org.mongodb_bson-record-codec-5.1.4.jar with timestamp 1794060504302
+26/11/07 14:08:25 INFO Utils: Copying /opt/spark/.ivy2/jars/org.mongodb_bson-record-codec-5.1.4.jar to /tmp/spark-445bc2e0-af1f-4ed8-8f92-fb831822a69d/userFiles-1501a276-7dfb-4ac6-bf0f-079071c4543a/org.mongodb_bson-record-codec-5.1.4.jar
+26/11/07 14:08:25 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+26/11/07 14:08:25 INFO TransportClientFactory: Successfully created connection to spark-master/172.19.0.5:7077 after 44 ms (0 ms spent in bootstraps)
+26/11/07 14:08:25 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20261107140825-0000
+26/11/07 14:08:25 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44969.
+26/11/07 14:08:25 INFO NettyBlockTransferService: Server created on 32cfceeeaa63:44969
+26/11/07 14:08:25 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/11/07 14:08:25 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 32cfceeeaa63, 44969, None)
+26/11/07 14:08:25 INFO BlockManagerMasterEndpoint: Registering block manager 32cfceeeaa63:44969 with 434.4 MiB RAM, BlockManagerId(driver, 32cfceeeaa63, 44969, None)
+26/11/07 14:08:25 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 32cfceeeaa63, 44969, None)
+26/11/07 14:08:25 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 32cfceeeaa63, 44969, None)
+26/11/07 14:08:25 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20261107140825-0000/0 on worker-20261107140810-172.19.0.9-40525 (172.19.0.9:40525) with 2 core(s)
+26/11/07 14:08:25 INFO StandaloneSchedulerBackend: Granted executor ID app-20261107140825-0000/0 on hostPort 172.19.0.9:40525 with 2 core(s), 1024.0 MiB RAM
+26/11/07 14:08:25 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+26/11/07 14:08:25 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20261107140825-0000/0 is now RUNNING
+26/11/07 14:08:35 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+Taux de fraude (train) : 0.0282
+26/11/07 14:08:55 WARN InstanceBuilder: Failed to load implementation from:dev.ludovic.netlib.blas.JNIBLAS
+
+===== LogisticRegression =====
+AUC ROC=0.9999  AUC PR=0.9965  Rappel=0.9976  Précision=0.8024  F1=0.8894
+Matrice de confusion :
+                 prédit 0   prédit 1
+  réel 0 (légit)     57919        416
+  réel 1 (fraude)        4       1689
+
+===== RandomForest =====
+AUC ROC=1.0  AUC PR=1.0  Rappel=1.0  Précision=1.0  F1=1.0
+Matrice de confusion :
+                 prédit 0   prédit 1
+  réel 0 (légit)     58335          0
+  réel 1 (fraude)        0       1693
+
+Importance des variables (RF) :
+  log_amount             0.3888
+  amount_ratio_mean      0.1134
+  type_TRANSFER          0.0927
+  oldbalanceDest         0.0835
+  dest_nb_senders        0.0749
+  error_balance_dest     0.0734
+  oldbalanceOrg          0.0345
+  type_CASH_OUT          0.0340
+  type_PAYMENT           0.0338
+  amount_zscore          0.0307
+Métriques sauvegardées dans spark/p3_metrics.json
+Meilleur modèle : RandomForest -> sauvegardé dans hdfs://namenode:9000/models/fraud_rf
+1693 alertes écrites dans fraud_lab.fraud_alerts
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> docker exec -it ollama ollama pull llama3
+pulling manifest 
+pulling 6a0746a1ec1a: 100% ▕█████████████████████████████████████████████████████████████████████████████████████ ▏ 4.7 GB/4.7 GB  3.8 MB/s      0s
+pulling 3f8eb4da87fa: 100% ▕██████████████████████████████████████████████████████████████████████████████████████▏  485 B                         
+verifying sha256 digest 
+writing manifest 
+success 
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud> cd .\agent\
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud\agent> python fraud_agent.py --limit 5
+5 alertes à traiter
+C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud\agent\fraud_agent.py:107: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "generated_at": datetime.utcnow().isoformat()}
+================================================================================
+Transaction T0000018243 | score 1.0 | vraie fraude : 1
+--- Pour le conseiller ---
+ Bonjour, nous avons détecté une transaction suspecte sur votre compte. Le modèle de Machine Learning nous a signalé un risque élevé (score 1.0) en raison de plusieurs motifs inquiétants : le bénéficiaire a reçu des fonds de 40 comptes différents, ce qui est inhabituel, et 8 opérations du même compte ont été effectuées dans la même heure. Nous vous conseillons de vérifier ces informations et de nous contacter si vous avez des questions. Vous pouvez valider ou refuser cette opération depuis votre application bancaire officielle.
+--- Email client ---
+ {'objet': 'Vérification de transaction suspecte sur votre compte', 'corps': "Bonjour, nous vous contactons à propos d'une transaction suspecte sur votre compte C710761533. Nous avons détecté un risque élevé (score 1.0) en raison de plusieurs motifs inquiétants. Nous vous conseillons de vérifier ces informations et de nous contacter si vous avez des questions. Vous pouvez valider ou refuser cette opération depuis votre application bancaire officielle. Si vous avez des questions, n'hésitez pas à nous contacter. C'est avec votre sécurité que nous sommes préoccupés.\n\nCordialement,\nLe service Sécurité"}
+================================================================================
+Transaction T0000018242 | score 1.0 | vraie fraude : 1
+--- Pour le conseiller ---
+ Bonjour, nous avons détecté une transaction suspecte sur votre compte C710761533. Le modèle de Machine Learning nous indique un score de risque élevé (1.0) en raison de motifs anormaux : ce compte a reçu des fonds de 40 comptes différents, ce qui est inhabituel, et a réalisé 8 opérations similaires dans la même heure. Nous vous invitons à vérifier ces informations et à valider ou refuser l'opération depuis votre application bancaire officielle.
+--- Email client ---
+ {'objet': 'Vérification de transaction suspecte sur votre compte', 'corps': "Bonjour, nous vous contactons au sujet d'une transaction suspecte sur votre compte C710761533. Nous vous invitons à vérifier ces informations et à valider ou refuser l'opération depuis votre application bancaire officielle. Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter. Merci de votre compréhension. C'est Le service Sécurité."}
+================================================================================
+Transaction T0000261026 | score 1.0 | vraie fraude : 1
+--- Pour le conseiller ---
+ Bonjour, nous avons détecté une transaction suspecte sur votre compte. Le modèle de Machine Learning nous indique un score de risque élevé (1.0) car l'opération vide votre solde, le montant est très supérieur à vos habitudes (114 € contre 916 €), le bénéficiaire reçoit des fonds de 40 comptes différents et il y a 3 opérations du même compte en même heure. Nous vous invitons à valider ou refuser cette opération depuis votre application bancaire officielle.
+--- Email client ---
+ {'objet': "Vérification d'une transaction suspecte sur votre compte", 'corps': "Bonjour [Client],\r\n\r\nNous vous informons que nous avons détecté une transaction suspecte sur votre compte C709736658. Nous vous invitons à vous connecter à votre application bancaire officielle pour valider ou refuser cette opération. Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter.\r\n\r\nCordialement,\r\nLe service Sécurité"}
+================================================================================
+Transaction T0000261028 | score 1.0 | vraie fraude : 1
+--- Pour le conseiller ---
+ Bonjour, nous avons détecté une transaction suspecte sur votre compte. Le modèle de Machine Learning nous indique un score de risque élevé (1.0) en raison de motifs inquiétants tels que l'opération vide 0% de votre solde, le bénéficiaire reçoit des fonds de 40 comptes différents, 3 opérations du même compte dans la même heure et type d'opération à risque (TRANSFER). Il est important de valider ou refuser cette opération uniquement depuis votre application bancaire officielle pour nous permettre de prendre des mesures pour protéger votre compte.
+--- Email client ---
+ {'objet': "Vérification d'une transaction suspecte sur votre compte", 'corps': "Bonjour, nous vous contactons à propos d'une transaction suspecte sur votre compte C709736658. Nous vous invitons à valider ou refuser cette opération uniquement depuis votre application bancaire officielle. Si vous avez des questions ou préoccupations, n'hésitez pas à nous contacter. C'est avec votre sécurité que nous sommes préoccupés. C Cordialement, Le service Sécurité."}
+================================================================================
+Transaction T0000156564 | score 1.0 | vraie fraude : 1
+--- Pour le conseiller ---
+ Bonjour, nous avons détecté une transaction suspecte sur votre compte C710667708. Le modèle de Machine Learning nous a signalé un risque élevé (score 1.0) en raison de motifs anormaux tels que l'opération réalisée en pleine nuit, le bénéficiaire qui reçoit des fonds de 40 comptes différents et 3 opérations du même compte dans la même heure. Nous vous invitons à valider ou refuser cette opération uniquement depuis votre application bancaire officielle. S'il vous plaît, vérifiez les informations de la transaction et prenez les mesures appropriées.
+--- Email client ---
+ Objet : Vérification d'une transaction suspecte sur votre compte C710667708
+Corps : Bonjour, nous avons détecté une transaction suspecte sur votre compte C710667708. Le modèle de Machine Learning nous a signalé un risque élevé (score 1.0) en raison de motifs anormaux tels que l'opération réalisée en pleine nuit, le bénéficiaire qui reçoit des fonds de 40 comptes différents et 3 opérations du même compte dans la même heure. Nous vous invitons à valider ou refuser cette opération uniquement depuis votre application bancaire officielle. S'il vous plaît, vérifiez les informations de la transaction et prenez les mesures appropriées.
+Cordialement,
+Le service Sécurité
+(venv) PS C:\Users\matth\hexagone\projet\hadoopSpark\M1_ProjetHadoopSpark\projet-fraude-bigdata\fraud\agent> history
+
+  Id CommandLine                                                                                                                                   
+  -- -----------                                                                                                                                   
+   1 try { . "c:\Users\matth\AppData\Local\Programs\Microsoft VS Code\e646868227\resources\app\out\vs\workbench\contrib\terminal\common\scripts\...
+   2 ls                                                                                                                                            
+   3 cd .\fraud\                                                                                                                                   
+   4 ls                                                                                                                                            
+   5 .\venv\Scripts\activate                                                                                                                       
+   6 docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packag...
+   7 docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packag...
+   8 docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packag...
+   9 docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packag...
+  10 bash gephi/export_for_gephi.sh                                                                                                                
+  11 docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packag...
+  12 pip install pandas                                                                                                                            
+  13 docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packag...
+  14 docker compose up -d --build                                                                                                                  
+  15 docker exec -it spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --conf spark.jars.ivy=/opt/spark/.ivy2 --packag...
+  16 docker exec -it ollama ollama pull llama3                                                                                                     
+  17 cd .\agent\                                                                                                                                   
+  18 python fraud_agent.py --limit 5       
